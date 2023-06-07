@@ -1,0 +1,36 @@
+<?php
+    #Variable númerica
+    $numero = 5;
+    echo "Esto es una variable número : $numero";
+    echo "<br><br>";
+
+    #Variable de texto
+
+    $palabra = "Palabra";
+    echo "Esto es una variable número : $palabra";
+    echo "<br><br>";
+
+    #Varibale de tipo bolleano
+
+    $Boleana = true;
+    echo "Esto es una varibale Boleana : $Boleana";
+    echo "<br><br>";
+
+    #Variable de tipo arreglo
+
+    $Colores = array("rojo", "amarillo", "azul" );
+    echo "Esto es una varibale arreglo : $Colores[1]";
+    echo "<br><br>";
+
+    #Variable arreglo con propiedades
+    $Verduras = array("verdura1" =>"lechuga","verdura2" =>"Cebolla");
+    echo "Esto es una varibale arreglo con propiedades : $Verduras[verdura2]";
+    echo "<br><br>";
+   
+
+    #Variables arreglo de tipo objeto
+    $Frutas = (object)["fruta1" =>"pera","fruta2" => "manzana"];
+    echo "esto es una varibale arreglo de tipo objeto $Frutas->fruta1";
+
+
+    ?>
